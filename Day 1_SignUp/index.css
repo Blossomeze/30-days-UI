@@ -164,6 +164,11 @@ footer{
         justify-content: space-between;
         border-radius: 13px;
     }
+    footer{
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+    }
     @media only screen and (max-width: 600px) {
         .container{
           display: flex;
@@ -235,10 +240,11 @@ footer{
     }
     button > img{
         padding: 0 7px;
+        width: 30px;
     }
     button:nth-child(1){
         background-color: #6F1ADA;
-        padding: 12px 100px;
+        padding: 12px 90px;
         border: none;
         color: #fff;
     }
