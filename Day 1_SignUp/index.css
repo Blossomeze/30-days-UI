@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .right{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10% 5%;
+        text-align: left;
+    }
+    .center{
+        max-width: 250px !important;
+        padding: 7% 0;
+    }
+    .center > img{
+        object-fit: contain;
+        max-width: 250px;
+    }
+    .mark{
+        max-width: 20px;
+    }
+    .right > h1{
+        font-size: 14px;
+    }
+    .ending{
+        text-align: left;
+        width: 100%;
+        padding: 3% 0;
+        color: #504D55;
+    }
+    .ending h4{
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    .ending h5{
+        font-size: 11px;
+    }
+    .progress{
+        display: none;
+    }
+    .left{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 5%;
+        text-align: left;
+    }
+    .left h1{
+        font-size: 22px;
+        text-align: left;
+        width: 100%;
+    }
+    .left h2{
+        font-size: 18px;
+        text-align: left;
+        width: 100%;
+        padding-bottom: 5px;
+        padding-top: 20px;
+    }
+    .left h4{
+        padding-bottom: 10px;    
+        text-align: left;
+        width: 100%;
+        font-size: 14px;
+
+    }
+    .buttons{
+        margin-top: 7%;
+    }
+    button{
+        font-size: 12px;
+    }
+    button img{
+        max-width: 30px;
+    }
+    p{
+        font-size: 12px;
+    }
+    footer{
+        margin: 10px 0;
+    }
+}
+span{
+    color: #6F1ADA;
+}
+.left h1{
+    color: #342E3D;
+}
+.left h2{
+    color: #48464C;
+}
+.left h4{
+    color: #7B797D;
+}
+.buttons, form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px 0 0;
+}
+input, input:active{
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #A7ACB0;
+    padding: 2% 0;
+    background-color: transparent;
+}
+button{
+    border-radius: 5px;
+    margin-bottom: 3%;
+    font-weight: 500;
+    text-align: center;
+}
+button > img{
+    padding: 0 7px;
+}
+button:nth-child(1){
+    background-color: #6F1ADA;
+    padding: 12px 100px;
+    border: none;
+    color: #fff;
+}
+button:nth-child(2), button:nth-child(3){
+    background-color: #fff;
+    padding: 12px 0;
+    border: 1px solid #B4AFBA;
+    color: #342E3D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    color: #595959;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    padding: 2% 0;
+}
+p > a{
+    color: #504D55;
+    font-weight: 700;
+    font-size: 14px;
+}
+footer{
+    bottom: 0;
+    font-weight: 500;
+    font-size: 12px;
+    color: #5C5F76;
+}
+@media only screen and (min-width: 600px) {
+    .container{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 13px;
+    }
+    @media only screen and (max-width: 600px) {
+        .container{
+          display: flex;
+          flex-direction: column-reverse;
+        }
+        .left h1{
+            font-size: 18px;
+            display: flex;
+            text-align: left;
+            padding: 2px;
+            width: 100vw;
+        }
+        .left h2{
+            font-size: 14px;
+        }
+    
+        .right {
+            display: none;
+        }
+        
+      }
+    .left{
+        width: 50%;
+        background-color: #904de209;
+        padding: 0 10%;
+        padding-top: 7%;
+    }
+    .left h1{
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 37px;
+        color: #342E3D;
+        padding-bottom: 3vh;
+    }
+    .left h2{
+        font-weight: 600;
+        font-size: 28px;
+        color: #48464C;
+    }
+    .left h4{
+        font-weight: 500;
+        line-height: 21px;
+        color: #7B797D;
+    }
+    span{
+        color: #6F1ADA;
+    }
+    form{
+        margin: 5% 0;
+        display: flex;
+        flex-direction: column;
+    }
+    input, input:active{
+        margin: 10px 0;
+        border: none;
+        border-bottom: 1px solid #A7ACB0;
+        padding: 2% 0;
+        background-color: transparent;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        border-radius: 5px;
+        margin-bottom: 3%;
+        font-weight: 500;
+        text-align: center;
+    }
+    button > img{
+        padding: 0 7px;
+    }
+    button:nth-child(1){
+        background-color: #6F1ADA;
+        padding: 12px 100px;
+        border: none;
+        color: #fff;
+    }
+    button:nth-child(2), button:nth-child(3){
+        background-color: #fff;
+        padding: 12px 100px;
+        border: 1px solid #B4AFBA;
+        color: #342E3D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p{
+        color: #595959;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        padding: 2% 0;
+    }
+    p > a{
+        color: #504D55;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .right{
+        width: 50%;
+        padding: 0 5%;
+        padding-top: 10%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3%;
+    
+    }
+    .right > img{
+        max-width: 400px;
+    }
+    .right > h1{
+        text-align: left;
+        padding-top: 5%;
+        color: #000;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .ending{
+        color: #504D55;
+        padding: 3% 0;
+        text-align: left;
+    }
+    .message{
+        font-size: 14px;
+        padding-bottom: 2px;
+    }
+    .name_tags{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .progress{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .progress img{
+        margin: 0 15px;
+    }
+}
