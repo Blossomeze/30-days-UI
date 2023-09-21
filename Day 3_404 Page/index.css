@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: #5C5F76;
+    font-weight: 500;
+    font-size: 14px;
+}
+a:hover {
+    color: #0B0F31;
+    font-weight: 700;
+}
+.button_1, .help {
+    background-color: #fff;
+    border: 2px solid #384DF6;
+    padding: 5px 10px;
+    color: #272932;
+    border-radius: 4px;
+}
+.button_2, .home{
+    background-color: #384DF6;
+    color: #f8f8f8;
+    padding: 7px 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: #342E3D;
+    font-weight: 700;
+}
+h3, h4{
+    font-weight: 400;
+    color: #595959;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    border-radius: 0.32rem;
+    outline: none;
+    border: 1px solid #272932;
+}
+footer{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: space-between;
+    background-color: #E0E4FE;
+}
+@media screen and (max-width: 900px) {
+    .navbar ul {
+        display: none;
+    }
+    .btns{
+        margin: 5% 0;
+        width: 90%;
+        font-size: 10px;
+    }
+    .navbar{
+        padding-top: 5%;
+    }
+    .content{
+        margin: 10vh 5vw;
+    }
+    .content{
+        margin-bottom: 5vh;
+    }
+    h1{
+        margin-top: 8%;
+        font-size: 25px;
+    }
+    h3, h4{
+        font-size: 14px;
+        padding: 1% 0;
+    }
+    .content > img{
+        max-width: 80%;
+    }
+    input{
+        padding: 5px 0 5px 4px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .text > h4{
+        padding-bottom: 1.5vh;
+    }
+    .footer_logo{
+        max-width: 50%;
+    }
+    .footer_text > h2{
+        font-weight: 600;
+        color: #0B0F31;
+        font-size: 24px;
+        margin: 5px 0;
+        padding-top: 1vh;
+    }
+    .footer_text > h5{
+        color: #343753;
+        font-weight: 500;
+        font-size: 14px;
+        padding-right: 15vw;
+        margin-bottom: 1.5vh;
+    }
+    .right{
+        margin-top: 2vh;
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+    }
+    .footer_links > h5{
+        font-weight: 500;
+        color: #0B0F31;
+        font-size: 16px;
+    }
+    .footer_links > h6{
+        font-weight: 400;
+        color: #5C5F76;
+        padding: 4px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 800px) {
+    h1{
+        font-size: 35px;
+        padding-top: 3%;
+    }
+    .content > img{
+        width: 30%;
+    }
+    h3{
+        font-size: 17px;
+        max-width: 36%;
+        padding-top: 0.7%;
+    }
+    .btns{
+        width: 25%;
+        margin: 1% 0;
+        display: flex;
+        align-items: center;
+    }
+    .home, .help{
+        padding: 10px 18px;
+    }
+    .news{
+        display: flex;
+        align-items: flex-end;
+        width: 80%;
+        justify-content: space-between;
+        margin: 1% 0;
+    }
+    span > h1{
+        padding-bottom: 10px;
+    }
+    span > h4{
+        width: 100% !important;
+    }
+    .text{
+        width: 40%;
+        text-align: left;
+    }
+    input{
+        padding: 8px 200px 8px 8px;
+    }
+    .left{
+        text-align: left;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left{
+        width: 35%;
+    }
+    .footer_text > h2{
+        padding-top: 3%;
+    }
+    .footer_text > h5{
+        padding-top: 3%;
+    }
+    .socials{
+        padding-top: 4%;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+    }
+    .footer_links {
+        padding: 0 5%;
+    }
+    .footer_links > h5{
+        font-weight: 600;
+        color: #0B0F31;
+        font-size: 24px;
+    }
+    .footer_links> h6{
+        font-weight: 500;
+        color: #5C5F76;
+        padding-top: 10px;
+        font-size: 20px;
+        width: 100%;
+    }
+}
