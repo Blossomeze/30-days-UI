@@ -62,9 +62,6 @@ h1{
     padding-top: 3%;
     margin-right: 8%;
 }
-.right{
-    max-width: 45%;
-}
 .buttons{
     display: flex;
     align-items: center;
@@ -110,6 +107,11 @@ textarea{
 form > button{
     margin: 0 30%;
 }
+@media only screen and (min-width: 600px) {
+    .right{
+        max-width: 45%;
+    }
+}
 @media only screen and (max-width: 600px) {
     .container{
         display: flex;
@@ -121,7 +123,7 @@ form > button{
     }
     .buttons{
         justify-content: space-evenly;
-        width: 100vw;
+        width: 90vw;
         margin-left: -5%;
     }
     label{
@@ -146,11 +148,15 @@ form > button{
     }
     .right{
         margin-top: 20px;
+        width: 90vw !important;
     }
     .social{
         max-width: 70%;
     }
     h2{
         width: 100%;
+    }
+    form button{
+        margin: 0 10%;
     }
 }
