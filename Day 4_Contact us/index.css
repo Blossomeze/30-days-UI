@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 5% 8%;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.items{
+    padding-bottom: 2%;
+}
+.items img{
+    margin-right: 5px;
+}
+h3{
+    color: #263238;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    padding-top: 2%;
+}
+.ending{
+    font-family: 'Playfair Display', sans-serif;
+}
+.social{
+    padding: 3% 0;
+}
+h2{
+    color: #767E82;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.ending{
+    text-align: left;
+    width: 100%;
+    padding: 3% 0;
+    color: #504D55;
+}
+.ending h4{
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.ending h5{
+    font-size: 11px;
+}
+h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: #192125;
+    padding-bottom: 5px;
+}
+.left{
+    padding-top: 3%;
+    margin-right: 8%;
+}
+.right{
+    max-width: 45%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8% 0 5% 0;
+}
+.primary_btn{
+    background-color: #664ADC;
+    color: #fff;
+    padding: 14px 50px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+}
+.sec_btn{
+    background-color: #fff;
+    color: #664ADC;
+    padding: 12px 48px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 2px solid #664ADC;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+input, textarea{
+    margin-bottom: 8%;
+    border: 2px solid #D2D2D2;
+    padding: 16px;
+    border-radius: 5px;
+}
+label{
+    color: #3D3D3E;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+textarea{
+    padding: 35px;
+}
+form > button{
+    margin: 0 30%;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        padding-top: 6%;
+        padding-bottom: 3%;
+    }
+    .buttons{
+        justify-content: space-evenly;
+        width: 100vw;
+        margin-left: -5%;
+    }
+    label{
+        text-align: left;
+    }
+    .primary_btn{
+        padding: 16px 26px; 
+    }
+    .sec_btn{
+        padding: 14px 24px;
+    }
+    .left{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    form{
+        width: 100%;
+    }
+    .right > img{
+        max-width: 90%;
+    }
+    .right{
+        margin-top: 20px;
+    }
+    .social{
+        max-width: 70%;
+    }
+    h2{
+        width: 100%;
+    }
+}
