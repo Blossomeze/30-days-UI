@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+body{
+    padding: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    background-color: #F4F9FF;
+    max-width: 380px;
+    padding: 24px 32px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #F4F9FF;
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+span{
+    padding-left: 20px;
+}
+h1{
+    font-weight: 500;
+    font-size: 32px;
+    color: #454D61;
+}
+.card:hover{
+    background: conic-gradient(from 135deg at 50% 50%, rgba(17, 108, 243, 0.69) -75.12deg, rgba(17, 108, 243, 0.4) 97.57deg, rgba(157, 187, 233, 0.489869) 183.65deg, rgba(17, 108, 243, 0.69) 284.88deg, rgba(17, 108, 243, 0.4) 457.57deg),
+    linear-gradient(0deg, #EEEEEE, #EEEEEE);
+    transform: scale(1.05);
+    transition: 500ms all ease-in-out;
+
+}
+h3{
+    color: #455A64;
+    font-weight: 400;
+    margin: 0 27%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    font-size: 14px;
+}
+h5{
+    color: #556167;
+    font-weight: 400;
+}
+h6{
+    color: #4C5255;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.box{
+    text-align: left;
+}
+button{
+    background-color: #1053B7;
+    border: none;
+    color: #fff;
+    padding: 13px 48px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 20%;
+}
+@media screen and (max-width: 700px) {
+    button{
+        margin: 0;
+        font-weight: 700;
+        width: 70%;
+        font-size: 14px;
+    }
+    h1{
+        font-size: 24px;
+        padding-top: 5%;
+    }
+    h3{
+        margin: 0;
+        font-size: 12px;
+    }
+}
